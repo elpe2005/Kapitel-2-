@@ -5,11 +5,10 @@ namespace Uppgift_2._1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Vilken är din favorit bok?");
-            Console.WriteLine("Min favorit bok är Percy Jackson.");
-            
-            
-            
+            Console.WriteLine("vilken är din favorit bok?");
+            string favorit =Console.ReadLine();
+            Console.WriteLine("så din favorit bok är "+ favorit + " ,coolt " );
+                      
         }
     }
 }
